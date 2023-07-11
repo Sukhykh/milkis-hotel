@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/milkis-hotel/static/css/main.b9bdbd87.css",
-    "main.js": "/milkis-hotel/static/js/main.a22a267f.js",
+    "main.css": "/milkis-hotel/static/css/main.7196ccaf.css",
+    "main.js": "/milkis-hotel/static/js/main.714b10ff.js",
     "static/media/lobby.jpg": "/milkis-hotel/static/media/lobby.394f602defd64f60e0b3.jpg",
     "static/media/restaurant.jpg": "/milkis-hotel/static/media/restaurant.d1bc39a0615f883c4e22.jpg",
     "static/media/about_800x600.jpg": "/milkis-hotel/static/media/about_800x600.a844db53c12c380aab51.jpg",
+    "static/media/slick.svg": "/milkis-hotel/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/milkis-hotel/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/milkis-hotel/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/milkis-hotel/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/milkis-hotel/index.html",
-    "main.b9bdbd87.css.map": "/milkis-hotel/static/css/main.b9bdbd87.css.map",
-    "main.a22a267f.js.map": "/milkis-hotel/static/js/main.a22a267f.js.map"
+    "main.7196ccaf.css.map": "/milkis-hotel/static/css/main.7196ccaf.css.map",
+    "main.714b10ff.js.map": "/milkis-hotel/static/js/main.714b10ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9bdbd87.css",
-    "static/js/main.a22a267f.js"
+    "static/css/main.7196ccaf.css",
+    "static/js/main.714b10ff.js"
   ]
 }
