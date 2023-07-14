@@ -4,15 +4,21 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { galleryData } from '../../../config/gallery';
+import BookBtn from '../../../ui/BookBtn';
 // import './Gallery.css'
 
 const Gallery = () => {
+  // Slider correction style
   const inlineStyle = {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'space-around',
+    justifyContent: 'space-evenly',
     padding: '30px',
+    maxWidth: '80%',
   };
+  // Button component local style
+  const btnStyle = { textAlign: 'center', margin: '20px' };
+  // Slider settings
   const settings = {
     dots: true,
     infinite: true,
@@ -48,17 +54,20 @@ const Gallery = () => {
     ],
   };
   return (
-    <div className={`${general_styles.container}`} style={inlineStyle}>
-      <Slider {...settings}>
-        {galleryData.map((item) => (
-          <div className="card" key={item.id}>
-            <div className="card-top">
-              <img src={item.image} alt={item.name} />
+    <div>
+      <div className={`${general_styles.container}`} style={inlineStyle}>
+        <Slider {...settings}>
+          {galleryData.map((item, index) => (
+            <div className="card" key={index}>
+              <img src={item.localImg} alt={item.name} />
+              <div className="card-bottom">type: {item.name}</div>
             </div>
-            <div className="card-bottom">type: {item.name}</div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+        <div style={btnStyle}>
+          <BookBtn />
+        </div>
+      </div>
     </div>
   );
 };
